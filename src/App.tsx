@@ -11,8 +11,8 @@ import {
 type Lang = "en" | "es"
 const t = {
   en: {
-    brand: "Mendoza Cleaning Services",
-    tagline: "Leave the cleaning to us",
+    brand: "Cleanify",
+    tagline: "Residencial & Commercial Cleaning",
     getQuote: "Instant Quote",
     homeSqFt: "Home square feet",
     bedrooms: "Bedrooms",
@@ -66,7 +66,7 @@ const t = {
     roomsLine: "Rooms (beds or baths)",
   },
   es: {
-    brand: "Mendoza Cleaning Services",
+    brand: "Cleanify",
     tagline: "Déjanos la limpieza a nosotros",
     getQuote: "Cotización inmediata",
     homeSqFt: "Superficie del hogar (pies²)",
@@ -530,7 +530,7 @@ export default function App() {
       )}
 
       <footer className="text-center text-xs text-gray-500 py-8">
-        © {new Date().getFullYear()} Mendoza Cleaning Services ·
+        © {new Date().getFullYear()} Cleanify ·
         {" "}<a className="underline-offset-2 hover:underline" href="tel:+18655075786">(865) 507-5786 </a> ·
         {" "}<a className="underline-offset-2 hover:underline" href="mailto:jmendozacleaningservices@gmail.com">jmendozacleaningservices@gmail.com</a>
       </footer>

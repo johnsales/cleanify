@@ -303,8 +303,8 @@ export default function App() {
       <header className="border-b bg-white/80 backdrop-blur">
         <div className="max-w-6xl mx-auto flex items-center justify-between px-4 py-4">
           <div className="flex items-center gap-3">
-            <div className="size-10 place-items-center">
-              <img src="/logo.png" alt="Logo" className="object-contain" />
+            <div className="size-10  place-items-center">
+              <img src="/logo2.png" alt="Logo" className="object-contain" />
             </div>
             <div>
               <h1 className="text-xl font-bold tracking-tight">{L.brand}</h1>
